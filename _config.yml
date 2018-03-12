@@ -1,0 +1,17 @@
+title: Streamdata Gallery Templates
+url: templates.streamdata.gallery
+tag: Templates
+markdown: kramdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+github_user: streamdata-gallery
+github_repo: templates
+github_branch: master
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+defaults:
+  - scope:
+      type: listings
+    values:
+      layout: listings
