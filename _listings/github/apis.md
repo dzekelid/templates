@@ -40,7 +40,7 @@ apis:
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/github/gitignore-templates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/github/gitignore-templates-language-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
