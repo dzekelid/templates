@@ -31,7 +31,7 @@ apis:
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-elastic-beanstalk/action-createconfigurationtemplate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-elastic-beanstalk/action-deleteconfigurationtemplate-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
