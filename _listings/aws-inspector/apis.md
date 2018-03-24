@@ -30,7 +30,7 @@ apis:
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-deleteassessmenttemplate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-describeassessmenttemplates-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
