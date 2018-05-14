@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Delete Configuration Template
   version: 1.0.0
+  description: Deletes the specified configuration template.
 schemes:
 - http
 produces:
