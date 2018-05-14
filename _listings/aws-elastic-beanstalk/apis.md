@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-elastic-beanstalk/action-updateconfigurationtemplate-get.md
-- name: AWS Elastic Beanstalk API Create Configuration Template
-  description: Creates a configuration template.
+- name: AWS Elastic Beanstalk API Delete Configuration Template
+  description: Deletes the specified configuration template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
   humanURL: https://aws.amazon.com/elasticbeanstalk/
   baseURL: http:://{host}//
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-elastic-beanstalk/action-createconfigurationtemplate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-elastic-beanstalk/action-deleteconfigurationtemplate-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
