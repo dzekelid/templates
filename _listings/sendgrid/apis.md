@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/sendgrid/templates-template-id-versions-version-id-activate-post.md
-- name: SendGrid Get Templates
+- name: SendGrid Add Templates
   description: |-
-    **This endpoint allows you to retrieve all transactional templates.**
+    **This endpoint allows you to create a transactional template.**
 
     Each user can create up to 300 different transactional templates. Transactional templates are specific to accounts and subusers. Templates created on a parent account will not be accessible from the subuser accounts.
 
@@ -49,9 +49,7 @@ apis:
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/sendgrid/templates-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/sendgrid/templates-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/sendgrid/templates-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
