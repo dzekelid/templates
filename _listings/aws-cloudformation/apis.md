@@ -24,15 +24,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/action-validatetemplate-get.md
-- name: AWS CloudFormation API Get Template Summary
-  description: Returns information about a new or existing template.
+- name: AWS CloudFormation API Validate Template
+  description: Validates a specified template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
   humanURL: https://aws.amazon.com/cloudformation/
   baseURL: http:://{host}//
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/action-gettemplatesummary-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/action-validatetemplate-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html
