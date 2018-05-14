@@ -36,20 +36,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/sendgrid/templates-template-id-versions-version-id-activate-post.md
-- name: SendGrid Patch Templates Template
+- name: SendGrid Add Templates Template  Versions
   description: |-
-    **This endpoint allows you to edit a transactional template.**
+    **This endpoint allows you to create a new version of a template.**
 
-    Each user can create up to 300 different transactional templates. Transactional templates are specific to accounts and subusers. Templates created on a parent account will not be accessible from the subuser accounts.
+    Each transactional template can have multiple versions, each version with its own subject and content. Each user can have up to 300 versions across across all templates.
 
-    Transactional templates are templates created specifically for transactional email and are not to be confused with [Marketing Campaigns templates](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/templates.html). For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
+    For more information about transactional templates, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Transactional_Templates/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/sendgrid/templates-template-id-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/sendgrid/templates-template-id-versions-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
