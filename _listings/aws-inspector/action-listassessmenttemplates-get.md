@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API List Assessment Templates
   version: 1.0.0
+  description: |-
+    Lists the assessment templates that correspond to the assessment targets that are
+             specified by the ARNs of the assessment targets.
 schemes:
 - http
 produces:
