@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Create Assessment Template
   version: 1.0.0
+  description: |-
+    Creates an assessment template for the assessment target that is specified by the ARN
+             of the assessment target.
 schemes:
 - http
 produces:
