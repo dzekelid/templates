@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Update Configuration Template
   version: 1.0.0
+  description: |-
+    Updates the specified configuration template to have the specified properties or
+          configuration option values.
 schemes:
 - http
 produces:
