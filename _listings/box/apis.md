@@ -34,18 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/box/metadata-templates-scope-template-schema-put.md
-- name: Box Get Enterprise Metadata
-  description: Used to retrieve all metadata templates within a user's enterprise.
-    Currently only the enterprise scope is supported.
+- name: Box Get Metadata Template
+  description: Used to retrieve the schema for a given metadata template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/box/metadata-templates-scope-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/box/metadata-templates-scope-template-schema-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/box/metadata-templates-scope-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/box/metadata-templates-scope-template-schema-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
