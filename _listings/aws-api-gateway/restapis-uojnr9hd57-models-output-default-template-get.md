@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS API Gateway API
+  title: AWS API Gateway API Model Generatetemplate
   version: 1.0.0
+  description: Generates a sample mapping template that can be used to transform a
+    payload into the structure of a model.
 schemes:
 - http
 produces:
