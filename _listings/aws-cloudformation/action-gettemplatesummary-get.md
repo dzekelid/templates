@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFormation API
+  title: AWS CloudFormation API Get Template Summary
   version: 1.0.0
+  description: Returns information about a new or existing template.
 schemes:
 - http
 produces:
