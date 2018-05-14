@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFormation API
+  title: AWS CloudFormation API Validate Template
   version: 1.0.0
+  description: Validates a specified template.
 schemes:
 - http
 produces:
