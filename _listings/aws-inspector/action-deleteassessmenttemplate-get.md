@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Delete Assessment Template
   version: 1.0.0
+  description: |-
+    Deletes the assessment template that is specified by the ARN of the assessment
+             template.
 schemes:
 - http
 produces:
