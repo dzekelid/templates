@@ -41,19 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/github/gitignore-templates-language-get.md
-- name: Github Get Gitignore Templates
-  description: |-
-    Listing available templates.
-    List all templates available to pass as an option when creating a repository.
+- name: Github Get Gitignore Templates Language
+  description: Get a single template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/github/gitignore-templates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/github/gitignore-templates-language-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/github/gitignore-templates-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/github/gitignore-templates-language-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
