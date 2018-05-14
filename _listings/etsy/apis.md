@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Delete Shipping Templates Shipping Template
-  description: Deletes the ShippingTemplate with the given id.
+- name: Etsy Put Shipping Templates Shipping Template
+  description: Updates a ShippingTemplate
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/etsy/shipping-templates-shipping-template-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/etsy/shipping-templates-shipping-template-id-put.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
