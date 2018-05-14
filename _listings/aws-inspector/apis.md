@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-listassessmenttemplates-get.md
-- name: AWS Inspector API Describe Assessment Templates
+- name: AWS Inspector API List Assessment Templates
   description: |-
-    Describes the assessment templates that are specified by the ARNs of the assessment
-             templates.
+    Lists the assessment templates that correspond to the assessment targets that are
+             specified by the ARNs of the assessment targets.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
   baseURL: http:://{host}//
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-describeassessmenttemplates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-listassessmenttemplates-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
