@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-listassessmenttemplates-get.md
-- name: AWS Inspector API Delete Assessment Template
+- name: AWS Inspector API Describe Assessment Templates
   description: |-
-    Deletes the assessment template that is specified by the ARN of the assessment
-             template.
+    Describes the assessment templates that are specified by the ARNs of the assessment
+             templates.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
   baseURL: http:://{host}//
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-deleteassessmenttemplate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-describeassessmenttemplates-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
