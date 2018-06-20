@@ -1,62 +1,91 @@
 ---
 name: AWS Inspector
+x-slug: aws-inspector
 description: Amazon Inspector is an automated security assessment service that helps
   improve the security and compliance of applications deployed on AWS. Amazon Inspector
   automatically assesses applications for vulnerabilities or deviations from best
   practices. After performing an assessment, Amazon Inspector produces a detailed
-  list of security findings prioritized by level of severity.nTo help you get started
+  list of security findings prioritized by level of severity.To help you get started
   quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped
   to common security best practices and vulnerability definitions. Examples of built-in
   rules include checking for remote root login being enabled, or vulnerable software
   versions installed. These rules are regularly updated by AWS security researchers.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Security
-- Amazon Web Services
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/apis.yaml
+x-alexaRank: "0"
+tags: Templates
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Inspector API
-  description: Amazon Inspector is an automated security assessment service that helps
-    improve the security and compliance of applications deployed on AWS
+- name: AWS Inspector API Create Assessment Template
+  x-api-slug: aws-inspector-api
+  description: |-
+    Creates an assessment template for the assessment target that is specified by the ARN
+             of the assessment target.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
-  humanURL: ""
-  baseURL: :///
-  tags: Templates
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: ://///?Action=CreateAssessmentTemplate
+  tags: Assessment Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-listassessmenttemplates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/actioncreateassessmenttemplate-get-openapi.md
+- name: AWS Inspector API Delete Assessment Template
+  x-api-slug: aws-inspector-api
+  description: |-
+    Deletes the assessment template that is specified by the ARN of the assessment
+             template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: ://///?Action=DeleteAssessmentTemplate
+  tags: Assessment Templates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/actiondeleteassessmenttemplate-get-openapi.md
+- name: AWS Inspector API Describe Assessment Templates
+  x-api-slug: aws-inspector-api
+  description: |-
+    Describes the assessment templates that are specified by the ARNs of the assessment
+             templates.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: ://///?Action=DescribeAssessmentTemplates
+  tags: Assessment Templates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/actiondescribeassessmenttemplates-get-openapi.md
 - name: AWS Inspector API List Assessment Templates
+  x-api-slug: aws-inspector-api
   description: |-
     Lists the assessment templates that correspond to the assessment targets that are
              specified by the ARNs of the assessment targets.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
-  baseURL: http:://{host}//
+  baseURL: ://///?Action=ListAssessmentTemplates
+  tags: Assessment Templates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/actionlistassessmenttemplates-get-openapi.md
+- name: AWS Inspector API
+  x-api-slug: aws-inspector-api
+  description: Amazon Inspector is an automated security assessment service that helps
+    improve the security and compliance of applications deployed on AWS. Amazon Inspector
+    automatically assesses applications for vulnerabilities or deviations from best
+    practices. After performing an assessment, Amazon Inspector produces a detailed
+    list of security findings prioritized by level of severity.To help you get started
+    quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped
+    to common security best practices and vulnerability definitions. Examples of built-in
+    rules include checking for remote root login being enabled, or vulnerable software
+    versions installed. These rules are regularly updated by AWS security researchers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: :///
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/action-listassessmenttemplates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-inspector/openapi.md
 x-common:
-- type: x-documentation
-  url: http://docs.aws.amazon.com/inspector/latest/APIReference/
-- type: x-faq
-  url: https://aws.amazon.com/inspector/faqs/
-- type: x-getting-started
-  url: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_quickstart.html
-- type: x-partners
-  url: https://aws.amazon.com/inspector/partners/
-- type: x-pricing
-  url: https://aws.amazon.com/inspector/pricing/
-- type: x-testimonials
-  url: https://aws.amazon.com/inspector/customers/
-- type: x-website
-  url: https://aws.amazon.com/inspector/
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
 - type: x-faq

@@ -1,53 +1,85 @@
 ---
 name: AWS CloudFormation
-description: ""
+x-slug: aws-cloudformation
+description: AWS CloudFormation gives developers and systems administrators an easy
+  way to create and manage a collection of related AWS resources, provisioning and
+  updating them in an orderly and predictable fashion.You can use AWS CloudFormations?sample
+  templates?or create your own templates to describe the AWS resources, and any associated
+  dependencies or runtime parameters, required to run your application. You do not
+  need to figure out the order for provisioning AWS services or the subtleties of
+  making those dependencies work. CloudFormation takes care of this for you. After
+  the AWS resources are deployed, you can modify and update them in a controlled and
+  predictable way, in effect applying version control to your AWS infrastructure the
+  same way you do with your software. You can also visualize your templates as diagrams
+  and edit them using a drag-and-drop interface with the?AWS CloudFormation Designer.You
+  can deploy and update a template and its associated collection of resources (called
+  a stack) by using the AWS Management Console, AWS Command Line Interface, or APIs.
+  CloudFormation is available at no additional charge, and you pay only for the AWS
+  resources needed to run your applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Management
-- Deployment
-- Cloud
-- Amazon Web Services
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/apis.yaml
+x-alexaRank: "0"
+tags: Templates
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS CloudFormation API
-  description: ""
+- name: AWS CloudFormation API Get Template
+  x-api-slug: aws-cloudformation-api
+  description: Returns the template body for a specified stack.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
-  humanURL: ""
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: ://///?Action=GetTemplate
+  tags: Templates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/actiongettemplate-get-openapi.md
+- name: AWS CloudFormation API Get Template Summary
+  x-api-slug: aws-cloudformation-api
+  description: Returns information about a new or existing template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: ://///?Action=GetTemplateSummary
+  tags: Templates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/actiongettemplatesummary-get-openapi.md
+- name: AWS CloudFormation API Validate Template
+  x-api-slug: aws-cloudformation-api
+  description: Validates a specified template.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: ://///?Action=ValidateTemplate
+  tags: Templates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/actionvalidatetemplate-get-openapi.md
+- name: AWS CloudFormation API
+  x-api-slug: aws-cloudformation-api
+  description: AWS CloudFormation gives developers and systems administrators an easy
+    way to create and manage a collection of related AWS resources, provisioning and
+    updating them in an orderly and predictable fashion.You can use AWS CloudFormations?sample
+    templates?or create your own templates to describe the AWS resources, and any
+    associated dependencies or runtime parameters, required to run your application.
+    You do not need to figure out the order for provisioning AWS services or the subtleties
+    of making those dependencies work. CloudFormation takes care of this for you.
+    After the AWS resources are deployed, you can modify and update them in a controlled
+    and predictable way, in effect applying version control to your AWS infrastructure
+    the same way you do with your software. You can also visualize your templates
+    as diagrams and edit them using a drag-and-drop interface with the?AWS CloudFormation
+    Designer.You can deploy and update a template and its associated collection of
+    resources (called a stack) by using the AWS Management Console, AWS Command Line
+    Interface, or APIs. CloudFormation is available at no additional charge, and you
+    pay only for the AWS resources needed to run your applications.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
   baseURL: :///
   tags: Templates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/action-validatetemplate-get.md
-- name: AWS CloudFormation API Validate Template
-  description: Validates a specified template.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
-  humanURL: https://aws.amazon.com/cloudformation/
-  baseURL: http:://{host}//
-  tags: Templates
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/action-validatetemplate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/aws-cloudformation/openapi.md
 x-common:
-- type: x-command-line-interface
-  url: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html
-- type: x-documentation
-  url: http://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/
-- type: x-faq
-  url: https://aws.amazon.com/cloudformation/faqs/
-- type: x-getting-started
-  url: https://aws.amazon.com/cloudformation/getting-started/
-- type: x-pricing
-  url: https://aws.amazon.com/cloudformation/pricing/
-- type: x-sdk
-  url: https://aws.amazon.com/cloudformation/aws-cloudformation-templates/
-- type: x-website
-  url: https://aws.amazon.com/cloudformation/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html
 - type: x-documentation
