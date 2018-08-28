@@ -1,11 +1,11 @@
-title: Streamdata API Gallery - Templates
+title: Streamdata API Gallery - Templatess
 description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
-url: templates.streamdata.gallery
-tag: Templates
+url: templatess.streamdata.gallery
+tag: Templatess
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery-topics
-github_repo: templates
+github_repo: templatess
 github_branch: master
 collections:
   listings:

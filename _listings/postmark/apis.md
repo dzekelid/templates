@@ -8,87 +8,183 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postma
 x-kinRank: "8"
 x-alexaRank: "87545"
 tags: Templates
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Postmark Get Templates
-  x-api-slug: postmark
+- name: Postmark - Get Templates
+  x-api-slug: templates-get
   description: Get templates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
-  baseURL: https://spamcheck.postmarkapp.com////templates
-  tags: Templates
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templates-get-openapi.md
-- name: Postmark Post Templates
-  x-api-slug: postmark
+- name: Postmark - Post Templates
+  x-api-slug: templates-post
   description: Post templates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
-  baseURL: https://spamcheck.postmarkapp.com////templates
-  tags: Templates
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templates-post-openapi.md
-- name: Postmark Post Templates Valate
-  x-api-slug: postmark
+- name: Postmark - Post Templates Valate
+  x-api-slug: templatesvalidate-post
   description: Post templates valate.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
-  baseURL: https://spamcheck.postmarkapp.com////templates/validate
-  tags: Templates,Validate
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatesvalidate-post-openapi.md
-- name: Postmark Delete Templates Template
-  x-api-slug: postmark
+- name: Postmark - Delete Templates Template
+  x-api-slug: templatestemplateid-delete
   description: Delete templates template.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
-  baseURL: https://spamcheck.postmarkapp.com////templates/{templateid}
-  tags: Templates,Templateid
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-delete-openapi.md
-- name: Postmark Get Templates Template
-  x-api-slug: postmark
+- name: Postmark - Get Templates Template
+  x-api-slug: templatestemplateid-get
   description: Get templates template.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
-  baseURL: https://spamcheck.postmarkapp.com////templates/{templateid}
-  tags: Templates,Templateid
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-get-openapi.md
-- name: Postmark Put Templates Template
-  x-api-slug: postmark
+- name: Postmark - Put Templates Template
+  x-api-slug: templatestemplateid-put
   description: Put templates template.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
-  baseURL: https://spamcheck.postmarkapp.com////templates/{templateid}
-  tags: Templates,Templateid
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-put-openapi.md
-- name: Postmark
-  x-api-slug: postmark
-  description: Postmark helps deliver and track transactional emails for web applications.
-    In a nutshell, the service replaces SMTP (or Sendmail) with a far more reliable,
-    scalable and care-free environment. In addition, you can track statistics for
-    number of emails sent, bounces and spam complaints.
+- name: Postmark - Delete Templates Template
+  x-api-slug: templatestemplateid-delete
+  description: Delete templates template.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
   humanURL: http://postmarkapp.com
   baseURL: https://spamcheck.postmarkapp.com//
-  tags: Templates
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-delete-openapi.md
+- name: Postmark - Get Templates Template
+  x-api-slug: templatestemplateid-get
+  description: Get templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-get-openapi.md
+- name: Postmark - Put Templates Template
+  x-api-slug: templatestemplateid-put
+  description: Put templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-put-openapi.md
+- name: Postmark - Delete Templates Template
+  x-api-slug: templatestemplateid-delete
+  description: Delete templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-delete-openapi.md
+- name: Postmark - Get Templates Template
+  x-api-slug: templatestemplateid-get
+  description: Get templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-get-openapi.md
+- name: Postmark - Put Templates Template
+  x-api-slug: templatestemplateid-put
+  description: Put templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-put-openapi.md
+- name: Postmark - Put Templates Template
+  x-api-slug: templatestemplateid-put
+  description: Put templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-put-openapi.md
+- name: Postmark - Get Templates Template
+  x-api-slug: templatestemplateid-get
+  description: Get templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-get-openapi.md
+- name: Postmark - Delete Templates Template
+  x-api-slug: templatestemplateid-delete
+  description: Delete templates template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/templates/master/_listings/postmark/templatestemplateid-delete-openapi.md
 x-common:
 - type: x--net-library
   url: http://developer.postmarkapp.com/developer-official-libs.html#dot-net
+- type: x-api-gallery
+  url: http://polygon.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://postmark.stack.network
 - type: x-base
   url: https://api.postmarkapp.com
 - type: x-blog

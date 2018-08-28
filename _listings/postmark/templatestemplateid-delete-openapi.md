@@ -97,6 +97,48 @@ paths:
       tags:
       - Templates
       - Templateid
+    get:
+      summary: Get Templates Template
+      description: Get templates template.
+      operationId: getTemplatesTemplate
+      x-api-path-slug: templatestemplateid-get
+      parameters:
+      - in: path
+        name: templateid
+        description: The ID for the Template you wish to retrieve
+      - in: header
+        name: X-Postmark-Server-Token
+        description: The token associated with the Server on which this request will
+          operate
+      responses:
+        200:
+          description: OK
+      tags:
+      - Templates
+      - Templateid
+    put:
+      summary: Put Templates Template
+      description: Put templates template.
+      operationId: putTemplatesTemplate
+      x-api-path-slug: templatestemplateid-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: templateid
+        description: The ID for the Template you wish to update
+      - in: header
+        name: X-Postmark-Server-Token
+        description: The token associated with the Server on which this request will
+          operate
+      responses:
+        200:
+          description: OK
+      tags:
+      - Templates
+      - Templateid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
